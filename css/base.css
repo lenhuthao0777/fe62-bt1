@@ -1,0 +1,58 @@
+/*----------------------- BASE CSS -----------------------*/
+.grid {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+.grid.wide {
+    width: 1024px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-left: -12px;
+    padding-right: -12px;   */
+}
+.grid-row {
+    display: flex;
+    /* margin-left: -12px;
+    margin-right: -12px; */
+}
+.col {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.no-gutters {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.grid-col-2{
+    /* padding-left: 12px;
+    padding-right:12px; */
+    width: 16.66667%;
+}
+.grid-col-10{
+    /* padding-left: 12px;
+    padding-right: 12px; */
+    width: 83.33333%;
+}
+
+.grid-col-6{
+    width: 60%;
+}
+.grid-col-4{
+    width: 40%;
+}
+.col-2__6{
+    width: 33.33334%;
+}
+.col-2__4{
+    width: 100%;
+}
+.pc-col-2{
+    /* padding-left: 4px;
+    padding-right: 4px; */
+    width: 33.3334%;
+}

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-end 62 | KFC</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="app">
+        <!-- Header -->
+        <div class="header">
+            <div class="grid">
+                <div class="grid wide">
+                    <header class="header-app">
+                        <div class="container">
+                            <div class="kesoc">
+                                <div class="row no-gutters">
+                                    <div class="box red"></div>
+                                    <div class="box"></div>
+                                    <div class="box red"></div>
+                                    <div class="box"></div>
+                                    <div class="box red"></div>
+                                    <div class="box"></div>
+                                    <div class="box red"></div>
+                                    <div class="box"></div>
+                                    <div class="box red"></div>
+                                </div>
+                            </div>
+                            <nav class="navbar">
+                                <div class="menu-btn">
+                                    <img src="./img/menu_btn.jpg" alt="" class="menu-btn-mb">
+                                </div>
+                                <a href="" class="nav-brand">
+                                    <img src="./img/logo_pc.png" alt="" class="pc">
+                                    <img src="./img/logo_mb.png" alt="" class="mb">
+                                </a>
+                                <div class="navbar-collapse">
+                                    <ul class="collpase-list">
+                                        <li class="collpase-list__item text-active">VN</li>
+                                        <li class="collpase-list__item">Đăng Nhập</li>
+                                    </ul>
+                                </div>
+                                <div class="cart-box"></div>
+                            </nav>
+                            <div class="header-menu">
+                                <ul class="menu-list">
+                                    <li class="menu-list__item menu-list__item-active">Combo 1 Người</li>
+                                    <li class="menu-list__item">Combo Nhóm</li>
+                                    <li class="menu-list__item">Combo Ưu Đãi</li>
+                                    <li class="menu-list__item">Món Lẻ</li>
+                                </ul>
+                                <div class="locations">
+                                    <span class="loca-label">Giao Hàng Đến:</span>
+                                    <span class="location">Hà Nội</span>
+                                    <span class="change">Thay Đổi
+                                        <i class="fas fa-angle-right"></i>
+                                    </span>
+                                </div>
+                                <div class="cart">
+                                    <img src="./img/cart_icon.png" alt="" class="cart-icon">
+                                    <span class="quantity">0</span>
+                                    <span class="cart-label">Giỏ Hàng</span>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+            </div>
+        </div>
+        <!-- Home Page -->
+        <div class="home-page">
+            <div class="grid">
+                <div class="grid wide">
+                    <div class="container">
+                        <div class="slider">
+                            <div class="slides">
+                                <!-- radio button -->
+                                <input type="radio" name="radio-btn" id="radio1" checked>
+                                <input type="radio" name="radio-btn" id="radio2">
+                                <input type="radio" name="radio-btn" id="radio3">
+                                <input type="radio" name="radio-btn" id="radio4">
+                                <input type="radio" name="radio-btn" id="radio5">
+                                <input type="radio" name="radio-btn" id="radio6">
+                                <input type="radio" name="radio-btn" id="radio7">
+                                <!-- img -->
+                                <div class="slide first">
+                                    <img src="./img/banner1.png" alt="">
+                                </div>
+                                <div class="slide">
+                                    <img src="./img/banner2.png" alt="">
+                                </div>
+                                <div class="slide">
+                                    <img src="./img/banner3.png" alt="">
+                                </div>
+                                <div class="slide">
+                                    <img src="./img/banner4.png" alt="">
+                                </div>
+                                <div class="slide">
+                                    <img src="./img/banner5.png" alt="">
+                                </div>
+                                <div class="slide">
+                                    <img src="./img/banner6.png" alt="">
+                                </div>
+                                <div class="slide">
+                                    <img src="./img/banner7.png" alt="">
+                                </div>
+                                <!-- navigation -->
+                                <div class="nav-auto">
+                                    <div class="auto-btn1"></div>
+                                    <div class="auto-btn2"></div>
+                                    <div class="auto-btn3"></div>
+                                    <div class="auto-btn4"></div>
+                                    <div class="auto-btn5"></div>
+                                    <div class="auto-btn6"></div>
+                                    <div class="auto-btn7"></div>
+                                </div>
+                                <div class="nav-manual">
+                                    <label for="radio1" class="manual-btn"></label>
+                                    <label for="radio2" class="manual-btn"></label>
+                                    <label for="radio3" class="manual-btn"></label>
+                                    <label for="radio4" class="manual-btn"></label>
+                                    <label for="radio5" class="manual-btn"></label>
+                                    <label for="radio6" class="manual-btn"></label>
+                                    <label for="radio7" class="manual-btn"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-home">
+                            <div class="row">
+                                <div class="grid-col-2">
+                                    <div class="categorys">
+                                        <div class="category-header">
+                                            <h2>Combo 1 Người</h2>
+                                        </div>
+                                        <div class="category-nav">
+                                            <ul class="category-list">
+                                                <li class="category-nav__item">
+                                                    <a href="" class="category-nav__link">Tất Cả</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-10">
+                                    <div class="product-header">
+                                        <h2>Combo 1 Người</h2>
+                                    </div>
+                                    <div class="row">
+                                        <div class="pc-col-2">
+                                            <div class="product-cart">
+                                                <div class="product-cart__img">
+                                                    <img src="./img/cart.jpg" alt="" class="img">
+                                                </div>
+                                                <div class="product-cart__body">
+                                                    <h5 class="cart__body-name">COMBO GÀ RÁN A</h5>
+                                                    <h6 class="cart__body-price">79.000đ</h6>
+                                                    <ul class="description">
+                                                        <li class="drv">2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay
+                                                            / 2 Miếng Gà Truyền thống</li>
+                                                        <li class="drv">1 Pepsi Lon</li>
+                                                    </ul>
+                                                    <div class="cart-btn">
+                                                        <button class="btn btn-custom">Tuỳ Chỉnh</button>
+                                                        <button class="btn btn-order">Đặt Hàng</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pc-col-2">
+                                            <div class="product-cart">
+                                                <div class="product-cart__img">
+                                                    <img src="./img/cart.jpg" alt="" class="img">
+                                                </div>
+                                                <div class="product-cart__body">
+                                                    <h5 class="cart__body-name">COMBO GÀ RÁN A</h5>
+                                                    <h6 class="cart__body-price">79.000đ</h6>
+                                                    <ul class="description">
+                                                        <li class="drv">2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay
+                                                            / 2 Miếng Gà Truyền thống</li>
+                                                        <li class="drv">1 Pepsi Lon</li>
+                                                    </ul>
+                                                    <div class="cart-btn">
+                                                        <button class="btn btn-custom">Tuỳ Chỉnh</button>
+                                                        <button class="btn btn-order">Đặt Hàng</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pc-col-2">
+                                            <div class="product-cart">
+                                                <div class="product-cart__img">
+                                                    <img src="./img/cart.jpg" alt="" class="img">
+                                                </div>
+                                                <div class="product-cart__body">
+                                                    <h5 class="cart__body-name">COMBO GÀ RÁN A</h5>
+                                                    <h6 class="cart__body-price">79.000đ</h6>
+                                                    <ul class="description">
+                                                        <li class="drv">2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay
+                                                            / 2 Miếng Gà Truyền thống</li>
+                                                        <li class="drv">1 Pepsi Lon</li>
+                                                    </ul>
+                                                    <div class="cart-btn">
+                                                        <button class="btn btn-custom">Tuỳ Chỉnh</button>
+                                                        <button class="btn btn-order">Đặt Hàng</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pc-col-2">
+                                            <div class="product-cart">
+                                                <div class="product-cart__img">
+                                                    <img src="./img/cart.jpg" alt="" class="img">
+                                                </div>
+                                                <div class="product-cart__body">
+                                                    <h5 class="cart__body-name">COMBO GÀ RÁN A</h5>
+                                                    <h6 class="cart__body-price">79.000đ</h6>
+                                                    <ul class="description">
+                                                        <li class="drv">2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay
+                                                            / 2 Miếng Gà Truyền thống</li>
+                                                        <li class="drv">1 Pepsi Lon</li>
+                                                    </ul>
+                                                    <div class="cart-btn">
+                                                        <button class="btn btn-custom">Tuỳ Chỉnh</button>
+                                                        <button class="btn btn-order">Đặt Hàng</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pc-col-2">
+                                            <div class="product-cart">
+                                                <div class="product-cart__img">
+                                                    <img src="./img/cart.jpg" alt="" class="img">
+                                                </div>
+                                                <div class="product-cart__body">
+                                                    <h5 class="cart__body-name">COMBO GÀ RÁN A</h5>
+                                                    <h6 class="cart__body-price">79.000đ</h6>
+                                                    <ul class="description">
+                                                        <li class="drv">2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay
+                                                            / 2 Miếng Gà Truyền thống</li>
+                                                        <li class="drv">1 Pepsi Lon</li>
+                                                    </ul>
+                                                    <div class="cart-btn">
+                                                        <button class="btn btn-custom">Tuỳ Chỉnh</button>
+                                                        <button class="btn btn-order">Đặt Hàng</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pc-col-2">
+                                            <div class="product-cart">
+                                                <div class="product-cart__img">
+                                                    <img src="./img/cart.jpg" alt="" class="img">
+                                                </div>
+                                                <div class="product-cart__body">
+                                                    <h5 class="cart__body-name">COMBO GÀ RÁN A</h5>
+                                                    <h6 class="cart__body-price">79.000đ</h6>
+                                                    <ul class="description">
+                                                        <li class="drv">2 Miếng Gà Giòn Cay / 2 Miếng Gà Giòn Không Cay
+                                                            / 2 Miếng Gà Truyền thống</li>
+                                                        <li class="drv">1 Pepsi Lon</li>
+                                                    </ul>
+                                                    <div class="cart-btn">
+                                                        <button class="btn btn-custom">Tuỳ Chỉnh</button>
+                                                        <button class="btn btn-order">Đặt Hàng</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="adds">
+                            <div class="add">
+                                <div class="options">
+                                    <a href="" class="option-link">
+                                        <img src="./img/add.png" alt="" class="option__img">
+                                    </a>
+                                </div>
+                                <div class="download-app">
+                                    <a href="" class="download-link">
+                                        <img src="./img/add2.png" alt="" class="download-app__img">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="grid wide">
+                    <div class="logo-footer">
+                        <a href="" class="logo-footer__link">
+                            <img src="./img/logo_footer_vi.png" alt="" class="logo-footer__img">
+                        </a>
+                    </div>
+                    <div class="footer-top">
+                        <div class="row">
+                            <div class="grid-col-6">
+                                <div class="row">
+                                    <div class="col-2__6">
+                                        <div class="cart-item">
+                                            <ul>
+                                                <li><a href="#">THỰC ĐƠN</a></li>
+                                                <li><a href="#">NHÀ HÀNG</a></li>
+                                                <li><a href="#">KHUYẾN MÃI</a></li>
+                                                <li><a href="#">ĐẶT TIỆC SINH NHẬT</a></li>
+                                                <li><a href="#">THÀNH VIÊN</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-2__6">
+                                        <div class="cart-item">
+                                            <h2><a href="#" class="cart-item__header">GIỚI THIỆU</a></h2>
+                                            <h3><a href="#">KFC Việt Nam</a></h3>
+                                            <h3><a href="#">Tin Tức</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-2__6">
+                                        <div class="cart-item">
+                                            <h2><a href="#" class="cart-item__header">NGHỀ NGHIỆP</a></h2>
+                                            <h3><a href="#">Tuyển Dụng</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-col-4">
+                                <div class="col-2__4">
+                                    <div class="contact">
+                                        <div class="cart-item">
+                                            <h2><a href="#" class="cart-item__header">KẾT NỐI VỚI KFC</a></h2>
+                                            <h3><a href="#">Liên Hệ</a></h3>
+                                        </div>
+                                        <div class="contact-icon">
+                                            <a href="" class="icon icon-facebook"><i
+                                                    class="fab fa-facebook-square"></i></a>
+                                            <a href="" class="icon icon-youtube"><i class="fab fa-youtube"></i></a>
+                                            <a href="" class="icon icon-instagram"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="form-contact">
+                                        <h2>Đăng ký nhận thông tin ưu đãi</h2>
+                                        <div class="form-contact__register">
+                                            <input type="text" class="input-contact__register" placeholder="Nhập email">
+                                            <button class="btn-contact__register">ĐĂNG KÝ</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="informations">
+                            <div class="information">
+                                <div class="address-info">
+                                    <h2 class="info-header">CÔNG TY LIÊN DOANH TNHH KFC VIỆT NAM</h2>
+                                    <ul class="address-info__list">
+                                        <li class="address-info__item">Số 292 Bà Triệu, P. Lê Đại Hành, Q. Hai Bà Trưng,
+                                            TP.
+                                            Hà Nội.</li>
+                                        <li class="address-info__item">Điện thoại:<a href=""> (028) 38489828 </a></li>
+                                        <li class="address-info__item">Email:<a href="">lienhe@kfcvietnam.com.vn</a>
+                                        </li>
+                                        <li class="address-info__item">Mã số thuế: 0100773885</li>
+                                        <li class="address-info__item">Ngày cấp: 29/10/1998 - Nơi cấp: Cục Thuế Thành
+                                            Phố Hà
+                                            Nội</li>
+                                    </ul>
+                                </div>
+                                <div class="certification">
+                                    <img src="./img/logo_bocongthuong.png" alt="" class="certification-img">
+                                </div>
+                            </div>
+                            <div class="policy">
+                                <div class="policy-item">
+                                    <span>Chính sách và quy định chung</span>
+                                    <span>Chính sách hoạt động</span>
+                                    <span>Chính sách bảo mật thông tin</span>
+                                </div>
+                                <h2>Copyright © 2020 lenhuthao0777@hotmail.com</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="kesoc">
+                        <div class="row no-gutters">
+                            <div class="box red"></div>
+                            <div class="box"></div>
+                            <div class="box red"></div>
+                            <div class="box"></div>
+                            <div class="box red"></div>
+                            <div class="box"></div>
+                            <div class="box red"></div>
+                            <div class="box"></div>
+                            <div class="box red"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
